@@ -1,0 +1,246 @@
+@media screen and (max-width: 600px) {
+
+    #landing {
+        height: 100vh;
+    }
+
+    #find-your-fit {
+        position: relative;
+        height: 56vw;
+    }
+
+    #apply-contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-button, .white-button {
+        font-size: 16px;
+        padding: 1.5vh 2vw;
+        margin: .75vh;
+        border-radius: 25px;
+    }
+
+    .home-button {
+        margin-top: 4vh;
+    }
+
+    #border-box {
+        margin-top: 0;
+        border: 4px solid white;
+        padding: 12vh 16vw;
+    }
+
+    .handRow {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .handRow img {
+        height: 20vh;
+        margin: 16vh 18vw;
+    }
+
+    #about {
+        margin-bottom: 0;
+    }
+
+    #about img {
+        height: auto;
+        width: 86vw;
+        margin-top: 4vh;
+        margin-left: 0;
+    }
+
+    .section {
+        flex-direction: column;
+        margin: 1vh;
+    }
+
+    .text {
+        width: 86vw;
+    }
+    
+    .text p {
+        margin-bottom: 4vh;
+        font-size: 1.65vh;
+    }
+
+    #project {
+        flex-direction: column-reverse;
+        justify-content: baseline;
+    }
+
+    .carousel {
+        width: 86vw;
+        margin-top: 4vh;
+        margin-right: 0;
+    }
+
+    .carousel-cell {
+        width: 88vw;
+        height: auto;
+    }
+    
+    .carousel-cell img {
+        width: inherit;
+        height: auto;
+    }
+
+    .big img {
+        width: 96vw;
+        transform: rotate(152deg) translateY(-2vh);
+        margin-left: -20vw;
+    }
+    
+    .small img {
+        display: none;
+    }
+
+    .sitting img {
+        width: 32vw;
+        margin-left: 4vw;
+        transform: translateY(67vh);
+    }
+
+    .big2 img {
+        /* width: 96vw;
+        transform: rotate(-80deg) translateX(-84vh);
+        margin-left: 56vw; */
+        display: none;
+    }
+
+    .standing img {
+        width: 28vw;
+        transform: translateY(152vh);
+        margin-left: 12vw;
+        /* display: none; */
+    }
+
+    .standing2 img {
+        width: 16vw;
+        transform: translateY(152vh) scaleX(-1);
+        margin-left: 70vw;
+        /* display: none; */
+    }
+
+    #project {
+        margin-bottom: 24vh;
+    }
+
+    #project .text {
+        margin-top: 12vh;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+
+    #find-your-fit {
+        position: relative;
+        height: 52vh;
+    }
+
+    #apply-contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-button, .white-button {
+        font-size: 16px;
+        padding: 2vh 1.5vw;
+        margin: 4vh;
+        border-radius: 25px;
+    }
+
+    .home-button {
+        margin-top: 4vh;
+    }
+
+    #border-box {
+        margin-top: 0;
+        border: 4px solid white;
+        padding: 4vh 24vw;
+    }
+
+    #about {
+        margin-bottom: 0;
+    }
+
+    #about img {
+        height: 76vh;
+        width: auto;
+        margin-top: 4vh;
+        margin-left: 0;
+    }
+
+    .section {
+        margin: auto;
+        flex-direction: column;
+        width: 80vw;
+    }
+    
+    .text p {
+        margin-bottom: 4vh;
+        font-size: 1.65vh;
+    }
+
+    #project {
+        flex-direction: column-reverse;
+        justify-content: baseline;
+    }
+
+    .carousel {
+        width: 86vw;
+        margin-top: 20vh;
+        margin-right: 0;
+    }
+
+    .carousel-cell {
+        width: 88vw;
+        height: auto;
+    }
+    
+    .carousel-cell img {
+        width: inherit;
+        height: auto;
+    }
+
+    .big img {
+        width: 96vw;
+        transform: rotate(152deg) translateY(-2vh);
+        margin-left: -20vw;
+        display: none;
+    }
+    
+    .small img {
+        display: none;
+    }
+
+    .sitting img {
+        width: 32vw;
+        margin-left: 4vw;
+        transform: translateY(67vh);
+        display: none;
+    }
+
+    .big2 img {
+        /* width: 96vw;
+        transform: rotate(-80deg) translateX(-84vh);
+        margin-left: 56vw; */
+        display: none;
+    }
+
+    .standing img {
+        width: 28vw;
+        transform: translateY(160vh);
+        margin-left: 12vw;
+        display: none;
+    }
+
+    .standing2 img {
+        width: 16vw;
+        transform: translateY(160vh) scaleX(-1);
+        margin-left: 70vw;
+        display: none;
+    }
+}

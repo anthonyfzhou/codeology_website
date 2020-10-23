@@ -1,0 +1,45 @@
+.sectionHeading {
+	margin-bottom: 5vw;
+}
+
+.prompt {
+	letter-spacing: .04em;
+	font-size: 7vw;
+	margin-bottom: 1.2vw;
+}
+
+
+.longRectangle {
+	position: relative;
+	margin-top: -300vw;
+	width: 70vw;
+	height: 2.5vw;
+
+	margin-bottom: 2vw;
+
+
+	z-index: -1;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.prompt {
+		font-family: Karla, sans-serif;
+		background-image: url("../Constants/images/Cartoons/Rectangle39.png");
+	    font-size: 4vw;
+	    margin: auto;
+		margin-top: 4vw;
+		margin-bottom: 4vw;
+		text-decoration-color: #55917F;
+		letter-spacing: .04em;
+		width: 50%;
+	}
+
+	.longRectangle {
+		display: none;
+	}
+}
+
+
+
+

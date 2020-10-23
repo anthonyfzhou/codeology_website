@@ -1,0 +1,72 @@
+.cardImg {
+    border-radius: 50px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 1vw;
+    width: 28vw;
+}
+
+.cardHolder {
+    display: flex;
+    width: 85vw;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+
+.cardName {
+    font-family: Karla, sans-serif;
+    font-size: 2.75vw;
+    margin-top: .75vw;
+}
+
+.cardRole {
+    font-size: 2vw;
+    margin-top: -1.5vw;
+    margin-bottom: 4vw;
+    color: #DB9E56;
+}
+
+
+@media only screen and (min-width: 768px) { 
+    .cardImg {
+        border-radius: 50px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 1vw;
+        width: 15vw;
+    }
+
+    .cardName {
+        font-family: Karla, sans-serif;
+        font-size: 1.5vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: -0.5vw;
+        margin-bottom: -0.5vw;
+        align-items:center;
+        justify-content: center;
+        width: 14vw;
+    }
+
+    .cardRole {
+        font-family: Karla, sans-serif;
+        font-size: 1vw;
+        margin-top: 1vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vw;
+        color: #DB9E56;
+        width: 14.5vw;
+    }
+
+    .cardHolder {
+        display: flex;
+        width: 90vw;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin:0 auto;
+    }
+}

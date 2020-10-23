@@ -1,0 +1,295 @@
+
+/* Global Variables */
+
+:root {
+  --picture-layer-0: 0;
+  --picture-layer-1: 1;
+  --picture-layer-2: 2;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+
+
+#Wall {
+  width: 100vw;
+  height: 54vw;
+  opacity: 0.7;
+}
+
+
+#wallBack {
+  width: 100vw;
+  height: 82vh;
+  position: static;
+
+  background: black;
+}
+
+#wallPicture {
+  width: 2vw;
+}
+
+.Title {
+  display: flex;
+  flex-direction: column; 
+  position: absolute;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15vw; 
+  line-height: 14vw;
+  text-align: center;
+  letter-spacing: 0.075em;
+  align-items:center;
+  top: 10vw;
+  color:white;
+}
+
+.textOverlay-white {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-weight: bold;
+    font-family: Karla;
+    font-size: 10vh;
+    letter-spacing: 6px;
+  }
+
+
+/* Picture Positions */
+
+@media only screen and (max-width: 768px)  {
+
+  #textSection {
+
+    display: flex;
+    flex-direction: column;
+
+
+    font-family: Karla, sans-serif;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    margin-bottom: 50vw;
+    position: relative;
+  }
+
+  #GreenHand {
+    position: absolute;
+
+    width: 30vw;
+    height: 30vw;
+
+    right: 0vw;
+  }
+
+  #PinkHand {
+    position: absolute;
+
+    width: 40vw;
+    height: 20vw;
+
+    left: 0vw;
+    margin-top: 3vw;
+    transform: scaleX(-1);
+  }
+
+  #RedHand {
+    position: absolute;
+
+    width: 40vw;
+    height: 30vw;
+
+    margin-top: -22vw;
+    right: 0vw;
+
+    z-index: -1;
+  }
+
+  #PeepsRight {
+    display: none;
+  }
+
+  #PeepsLeft {
+    display: none;
+  }
+
+  #GreenPuzzle {
+    position: absolute;
+
+    width: 60vw;
+
+    margin-top: -3vw;
+    margin-left: -5vw;
+  }
+
+  #puzzle2 {
+    position: absolute;
+    width: 60vw;
+
+    margin-left: 45vw;
+    margin-top: 25vw;
+
+    z-index: -1;
+  }
+
+  #puzzle3 {
+    position: absolute;
+    width: 60vw;
+
+    margin-top: 65vw;
+  }
+
+  #pictureMobile {
+    width: 60vw;
+    margin-left: 30vw;
+  }
+
+  #textHolder {
+    position: relative;
+    width: 80vw;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vw;
+    margin-bottom: -20vw;
+
+    font-size: 3vw;
+    text-align: left;
+    line-height: 6vw;
+  }
+
+    #PictureHolder {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+
+  #textSection {
+
+    display: flex;
+    flex-direction: column;
+
+
+    font-family: Karla, sans-serif;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    margin-bottom: 30vw;
+    position: relative;
+  }
+
+
+  #GreenHand {
+    position: absolute;
+    right: 0vw;
+
+
+    height: 27vw;
+    z-index: var(--picture-layer-1);
+  }
+
+  #PinkHand {
+    position: absolute;
+    left: 2vw;
+    margin-top: -2vw;
+
+    height: 16vw;
+  }
+
+  #RedHand {
+    position: absolute;
+    right: 3vw;
+    margin-top: -18vw;
+    height: 30vw;
+    z-index: var(--picture-layer-2);
+  }
+
+  #GreenPuzzle {
+    position: absolute;
+    left: -7vw;
+    margin-top: -15vw;
+
+    z-index: var(--picture-layer-1);
+    height: 70vw;
+  }
+
+  #PeepsLeft {
+    position: absolute;
+    z-index: var(--picture-layer-2);
+
+    top:40vh;
+    left:10vw;
+    height: 80%;
+  }
+
+  #PeepsRight {
+    position: absolute;
+    z-index: var(--picture-layer-2);
+
+    right: 15vw;
+    height: 20vw;
+
+    margin-top: 25vw;
+  }
+
+  #PictureHolder {
+    /*border-radius: 10px;*/
+    position: absolute;
+    z-index: var(--picture-layer-0);
+
+    top:1vw;
+    right: 3vw;
+    height: 30vw;
+  }
+
+  #textHolder {
+    z-index: var(--picture-layer-1);
+    position: relative;
+    width: 35vw;
+
+    font-size: 1.5vw;
+    line-height: 2.4vw;
+    text-align: center;
+
+    left: 12vw;
+    margin-top: 8vw;
+  }
+
+  #pictureMobile {
+    display: none;
+  }
+
+  #puzzle2 {
+    display: none;
+  }
+
+  #puzzle3 {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
